@@ -1,0 +1,45 @@
+.auth_page{
+    width: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+   align-items: center;
+    justify-content: right; 
+
+}
+.auth_page form{
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    border: 2px solid #ddd;
+    padding: 50px 25px;
+    
+}
+
+.auth_page form .pass{
+    position: relative;
+}
+
+.auth_page form .pass small{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.text-uppercase{
+    font-size: xx-large;
+    color: blue;
+    font-weight: bolder;
+}
+
+.login{
+    background-image: url(../images/light.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: 100%;
+    width: 100%;
+}

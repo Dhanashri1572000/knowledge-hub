@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://knowledge-hub-13.herokuapp.com/'
